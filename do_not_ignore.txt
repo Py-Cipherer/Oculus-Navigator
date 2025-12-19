@@ -1,0 +1,17 @@
+
+🔍 Why these?
+
+opencv-python → camera + rendering
+mediapipe → hand tracking + handedness
+numpy → vector math (angles, normalization)
+pyautogui → cursor, click, drag, scroll
+
+⚠️ Notes (important)
+
+numpy==1.26.4 → avoids conflicts with MediaPipe (you already hit this once)
+Do NOT add TensorFlow manually (MediaPipe bundles what it needs)
+Works fine in your oculus-env venv
+
+📦 Install command
+
+pip install -r requirements.txt
