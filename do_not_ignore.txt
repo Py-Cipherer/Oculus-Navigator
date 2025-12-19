@@ -1,4 +1,3 @@
-
 🔍 Why these?
 
 opencv-python → camera + rendering
@@ -8,9 +7,9 @@ pyautogui → cursor, click, drag, scroll
 
 ⚠️ Notes (important)
 
-numpy==1.26.4 → avoids conflicts with MediaPipe (you already hit this once)
+numpy==1.26.4 → avoids conflicts with MediaPipe
 Do NOT add TensorFlow manually (MediaPipe bundles what it needs)
-Works fine in your oculus-env venv
+Works fine in your virtual environment
 
 📦 Install command
 
